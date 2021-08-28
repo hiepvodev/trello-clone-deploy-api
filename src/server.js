@@ -34,7 +34,7 @@ const bootServer = () => {
   //   console.log(`Trello clone app listening at http://${hostName}:${port}`)
   // })
   //Support heorku deploy
-  app.listen(process.env.APP_PORT, () => {
-    console.log(`Trello clone app listening at ${process.env.APP_PORT}`)
+  app.listen(process.env.PORT, () => {
+    console.log(`Trello clone app listening at: ${process.env.PORT}`)
   })
 }
